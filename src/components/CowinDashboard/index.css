@@ -1,0 +1,63 @@
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content-container {
+  width: 85%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-title {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #2cc6c6;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.desc {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.failure-msg {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.failure-image {
+  width: 400px;
+}
